@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+#cabecario {
+    background-color: #303030;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cabecario > h1, #cabecario > p {
+    color: #fff;
+}
+
+#cabecario > h1 {
+    font-size: 50px;
+}
+
+#cabecario > p {
+    font-size: 20px;
+}
+
+
+#navegacao {
+    display: flex;
+    justify-content: space-around;
+    min-height: 150px;
+    background-color: rgba(230, 230, 230, 0.253);
+}
+
+#navegacao > div {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#corpo {
+    margin: 40px 20px;
+}
+
+#corpo > #sec-informacoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#corpo > #sec-informacoes > #text-box > div > p {
+    text-indent: 10px;
+    margin: 10px 0px;
+}
+
+#corpo > #sec-informacoes > #text-box > #nav-img {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#corpo > #sec-informacoes > #text-box > #nav-img > div > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.5s;
+}
+
+#corpo > #sec-informacoes > #text-box > #nav-img > div:hover > img {
+    margin-top: -10px;
+}
+
+#corpo > #sec-informacoes > #text-box {
+    max-width: 800px;
+}
+
+#corpo > #sec-informacoes > #text-box > h2 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#corpo > #sec-informacoes > #img-box {
+
+}
+
+#rodape {
+    color:#fff;
+    min-height: 100px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#rodape > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#rodape > div > input, button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#rodape > div > img {
+    width: 25px;
+}
+
+#rodape > div > button {
+    transition: 0.5s;
+}
+
+#rodape > div > button:hover {
+    background-color: #5c5c5c;
+    color: #fff;
+}
