@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 * {
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
     border: none;
+    box-sizing: border-box;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+
+
+*/CABEÇALHO*/   
+
 #cabecario {
-    background-color: #303030;
-    min-height: 300px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #303030;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
 }
 
 #cabecario > h1, #cabecario > p {
@@ -27,23 +31,29 @@
 
 #cabecario > p {
     font-size: 20px;
-}
+} 
 
+
+
+*/NAVEGAÇÃO*/  
 
 #navegacao {
+    background-color: rgba(230, 230, 230, 0.253);
     display: flex;
     justify-content: space-around;
     min-height: 150px;
-    background-color: rgba(230, 230, 230, 0.253);
 }
 
 #navegacao > div {
-    display: flex; 
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
 }
 
+
+
+*/CORPO*/  
 
 #corpo {
     margin: 40px 20px;
@@ -55,23 +65,23 @@
 }
 
 #corpo > #sec-informacoes > #text-box > div > p {
-    text-indent: 10px;
     margin: 10px 0px;
+    text-indent: 10px;
 }
 
 #corpo > #sec-informacoes > #text-box > #nav-img {
     display: flex;
     gap: 10px;
-    margin-top: 50px;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 #corpo > #sec-informacoes > #text-box > #nav-img > div > img {
-    width: 200px;
-    height: 200px;
     border-radius: 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 200px;
     transition: 0.5s;
+    width: 200px;
 }
 
 #corpo > #sec-informacoes > #text-box > #nav-img > div:hover > img {
@@ -83,33 +93,33 @@
 }
 
 #corpo > #sec-informacoes > #text-box > h2 {
-    font-weight: bolder;
     font-size: 40px;
-}
+    font-weight: bolder;
+} 
 
-#corpo > #sec-informacoes > #img-box {
 
-}
+
+*/FOOTER*/  
 
 #rodape {
-    color:#fff;
-    min-height: 100px;
-    background-color: #303030;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #303030;
+    color:#fff;
+    display: flex;
     gap: 20px;
+    justify-content: center;
+    min-height: 100px;
 }
 
 #rodape > div {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 5px;
 }
 
 #rodape > div > input, button {
-    padding: 5px;
     border-radius: 5px;
+    padding: 5px;
 }
 
 #rodape > div > img {
